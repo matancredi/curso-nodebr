@@ -1,0 +1,17 @@
+Api Star Wars: https://swapi.co/
+
+Instalar biblioteca axios: npm install axios
+
+const item = {
+	nome: 'Mariana',
+	idade: 23,
+}
+
+DESESTRUTURAÇÃO DE OBJETOS
+Para pegar somente alguns atributos do item:
+
+const {nome} = item;
+const {nome, idade} = item;
+
+nome = Mariana
+idade = 23
