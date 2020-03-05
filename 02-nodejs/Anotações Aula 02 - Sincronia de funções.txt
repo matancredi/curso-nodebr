@@ -1,0 +1,20 @@
+- Callback
+
+- Promises
+. Pending: Estado inicial, ainda não terminou ou ainda não foi rejeitada
+. Fulfilled: Quando executou todas as operações com sucesso
+. Rejected: Quando a operação falhou
+
+Fulfilled .then: ação a tomar depois que a promise termina
+Rejected .then, catch: tratar erro
+
+- Promises - Async/Await
+. Facilita a visualização do fluxo de funções
+. Não altera a performance da aplicação
+. Evoluiu do C#
+. Deve-se usar apenas quando precisar tratar a resposta da chamada
+
+- EventEmitter
+. Para ações contínuas
+. Node.js usa para quase tudo em seu ecossistema
+. Bastante usado também nos browsers (.onClick)

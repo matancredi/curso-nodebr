@@ -1,0 +1,11 @@
+node --version
+npm --version
+npm init: Cria um projeto node dentro de um diretório (cria o package.json)
+
+Por default, index.js é a entrada do projeto. Criar index.js
+
+Para executar: node <nome_arquivo>
+O comando "node ." faz com que ele procure o main
+
+Para automatizar, criar script no arquivo package.js: "dev": "node index.js"
+Aí será executado com o comando "npm run dev"
