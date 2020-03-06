@@ -1,0 +1,15 @@
+npm install --save-dev mocha
+
+Ao passar a variável entre chaves, ele pegará o primero elemento do array:
+const [resultado] = await database.listar(resultadoEsperado.id)
+
+
+Para outras posições:
+const [resultado, posicao2, posicao3] = await database.listar(resultadoEsperado.id)
+
+it.only executa somente um teste
+
+Para usar ferramentas da linha de comando: npm install commander
+
+A inserção do commander trará informações ao rodar o node index.js --help
+para versão: node index.js -V
