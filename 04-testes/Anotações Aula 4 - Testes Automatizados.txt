@@ -1,0 +1,14 @@
+-------------------TESTES---------------------------------------
+
+Mocha: Framework de testes em javascript: 
+npm install -g mocha
+npm i --save-dev mocha
+
+Para consumir a API do Star Wars, instalar o axios: npm i axios
+
+require('assert')
+
+Para rodar o arquivo de testes: mocha tests.js
+
+Instalar pacote nock para simular requisições
+npm install nock
