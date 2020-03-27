@@ -1,0 +1,24 @@
+REST/RESTFUL API
+
+- Stateless: não guarda cookies, nem sessões
+- Dados dos clientes são armazenados em seus respectivos navegadores
+- Em geral retorna JSON 
+
+MÉTODOS HTTP
+- Get: Obtém informações de um recurso
+- Post: Cria um item de um recurso
+- Put: Atualizar um recurso com uma nova representação
+- Patch: Atualiza um recurso parcialmente
+- Delete: Remover um recurso
+
+A URL pode ser a mesma, com diferentes ações para diferentes métodos http
+
+PADRÕES DE URL
+GET: /heroes
+POST: /heroes
+PUT: /heroes/:id -> body: {name, date, power}
+PATCH: /heroes/:id -> body: {name}
+DELETE: /heroes/:id
+GET: /heroes/:id
+GET: /heroes/:id/headquarters
+GET: /heroes/:id/headquarters/:id
