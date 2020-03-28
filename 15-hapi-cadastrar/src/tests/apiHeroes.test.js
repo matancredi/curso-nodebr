@@ -57,6 +57,6 @@ describe('Suite de testes da API Heroes', function () {
         const {message, _id} = JSON.parse(result.payload)
         assert.ok(statusCode === 200)
         assert.notStrictEqual(_id, undefined)
-        assert.deepEqual(message, "Heroi cadastrado com sucesso! ")
+        assert.deepEqual(message, "Heroi cadastrado com sucesso")
     })
 })
