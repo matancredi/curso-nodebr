@@ -1,0 +1,2 @@
+// Para criar senhas criptografadas:
+npm install bcrypt
